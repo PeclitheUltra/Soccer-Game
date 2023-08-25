@@ -7,6 +7,7 @@ using UnityEngine;
 public class ScreensManager : MonoBehaviour
 {
     [SerializeField] private RectTransform _menu, _results, _policy, _gameCards, _gameplay, _canvas;
+    [SerializeField] private float _transitionTime;
     private float _canvasWidth => _canvas.sizeDelta.x;
 
     public void OpenResults()
@@ -51,11 +52,11 @@ public class ScreensManager : MonoBehaviour
 
     private async UniTaskVoid SwitchWindows(RectTransform from, RectTransform to)
     {
-        from.DOLocalMoveX(-_canvasWidth, .45f).OnComplete(() => ResetWindow(from)).SetEase(Ease.InSine);
-        await Task.Delay(200);
+        from.DOLocalMoveX(-_canvasWidth, _transitionTime).OnComplete(() => ResetWindow(from)).SetEase(Ease.InSine);
+        await UniTask.Delay(200);
         to.transform.localPosition = new Vector3(_canvasWidth, 0, 0);
         to.gameObject.SetActive(true);
-        to.DOLocalMoveX(0, .45f).SetEase(Ease.OutSine);
+        to.DOLocalMoveX(0, _transitionTime).SetEase(Ease.OutSine);
     }
 
     private void ResetWindow(RectTransform window)

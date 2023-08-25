@@ -8,7 +8,13 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.Player.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BallSpawner.cs" t="Include" />
+        <e p="LeaderboardDisplay.cs" t="Include" />
+        <e p="LeaderboardEntry.cs" t="Include" />
         <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+          </e>
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
               <e p="Editor" t="Include">
@@ -28,18 +34,40 @@
             </e>
           </e>
         </e>
-        <e p="Prefabs" t="Include" />
+        <e p="Prefabs" t="Include">
+          <e p="Gameplay" t="Include">
+            <e p="Balls" t="Include" />
+            <e p="Obstacles" t="Include">
+              <e p="Maps" t="Include" />
+              <e p="Units" t="Include" />
+            </e>
+          </e>
+          <e p="UI" t="Include" />
+        </e>
         <e p="Resources" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
+          <e p="BootsAnimator.cs" t="Include" />
+          <e p="BootsMovement.cs" t="Include" />
+          <e p="CollectableBall.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="Leaderboard.cs" t="Include" />
           <e p="MenuButtonAnimation.cs" t="Include" />
           <e p="ScreensManager.cs" t="Include" />
+          <e p="Settings.cs" t="Include" />
+        </e>
+        <e p="SignalBus.cs" t="Include" />
+        <e p="Sounds" t="Include">
+          <e p="SFX" t="Include" />
         </e>
         <e p="Sprites" t="Include">
           <e p="Drawings" t="Include" />
+          <e p="Gameplay" t="Include" />
           <e p="Map Icons" t="Include" />
           <e p="Meta" t="Include" />
           <e p="Mockups" t="Include" />
+          <e p="Obstacles" t="Include" />
           <e p="Splash Screen" t="Include" />
           <e p="Universal" t="Include" />
         </e>
@@ -79,6 +107,8 @@
             <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
+        <e p="TimerDisplay.cs" t="Include" />
+        <e p="WinPrompt.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
