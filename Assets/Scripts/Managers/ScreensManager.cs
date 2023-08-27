@@ -1,4 +1,4 @@
-using System.Threading.Tasks;
+using System.Collections;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
@@ -6,9 +6,15 @@ using UnityEngine;
 
 public class ScreensManager : MonoBehaviour
 {
-    [SerializeField] private RectTransform _menu, _results, _policy, _gameCards, _gameplay, _canvas;
+    [SerializeField] private RectTransform _menu, _results, _policy, _gameCards, _gameplay, _canvas, _splash;
     [SerializeField] private float _transitionTime;
     private float _canvasWidth => _canvas.sizeDelta.x;
+
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(1f);
+        SwitchWindows(_splash, _menu);
+    }
 
     public void OpenResults()
     {

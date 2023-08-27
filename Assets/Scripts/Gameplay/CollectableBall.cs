@@ -28,7 +28,7 @@ public class CollectableBall : MonoBehaviour
     {
         if(other.TryGetComponent<BootsMovement>(out _boots))
         {
-            AudioManager.Instance.PlayKick();
+            SignalBus.HitABall?.Invoke();
             CreateTweenSequence();
         }
     }

@@ -23,29 +23,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Soccer Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soccer Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Soccer Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soccer Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Soccer Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Soccer Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Maps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Maps/Map 1 Obstacles.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Maps/Map 1 Obstacles.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Maps/Map 2 Obstacles.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Maps/Map 2 Obstacles.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Maps/Map 3 Obstacles.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Maps/Map 3 Obstacles.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Units.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Units/Diamond.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Units/Diamond.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Units/Rectangle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Units/Rectangle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Units/Triangle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Units/Triangle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Table Entry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Table Entry.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Boots.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Boots.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Obstacles/Maps/Map 1 Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Obstacles/Maps/Map 1 Obstacles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Obstacles/Maps/Map 2 Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Obstacles/Maps/Map 2 Obstacles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Obstacles/Maps/Map 3 Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Obstacles/Maps/Map 3 Obstacles.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BootsMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BootsMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectableBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectableBall.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreensManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreensManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ball.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Universal/Slice9Circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Universal/Slice9Circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SignalBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SignalBus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawings/Goal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawings/Goal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Universal/Back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Universal/Back.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Roboto SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Roboto SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TimerDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TimerDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
@@ -60,35 +52,45 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/SignalBus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadeOutAppearAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BootsFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Leaderboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BallSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TimerDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameplayMovementButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BootsAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeaderboardDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuButtonAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Leaderboard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BallSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WinPrompt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectableBall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TimerDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoalAnimator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuButtonAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Settings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScreensManager.cs" />
         <option value="$PROJECT_DIR$/Assets/BallSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BootsMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BootsAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/TimerDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollectableBall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/SignalBus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/WinPrompt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Leaderboard.cs" />
         <option value="$PROJECT_DIR$/Assets/LeaderboardEntry.cs" />
         <option value="$PROJECT_DIR$/Assets/LeaderboardDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BootsMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameplayMovementButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameplayControlsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/TimerDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GoalAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/SignalBus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectableBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/BootsFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/OpenHyperlinks.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FadeOutAppearAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScreensManager.cs" />
       </list>
     </option>
   </component>
@@ -136,7 +138,9 @@
       <workItem from="1692956054437" duration="5526000" />
       <workItem from="1692964051939" duration="6935000" />
       <workItem from="1692974414102" duration="270000" />
-      <workItem from="1692974718601" duration="1725000" />
+      <workItem from="1692974718601" duration="2326000" />
+      <workItem from="1693000188835" duration="3349000" />
+      <workItem from="1693135535017" duration="1230000" />
     </task>
     <servers />
   </component>
@@ -165,9 +169,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="762" y="241" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1692910289971" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1692973562129">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1693136034698">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1692973562129" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1693136034698" />
   </component>
 </project>

@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
         SignalBus.GameEnded += PlayFinish;
         SignalBus.Scored += PlayHit;
         SignalBus.GameStarted += PlayStart;
+        SignalBus.HitABall += PlayKick;
     }
 
     private void PlayStart()

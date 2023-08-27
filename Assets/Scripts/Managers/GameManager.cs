@@ -26,11 +26,11 @@ public class GameManager : MonoBehaviour
 
     private async UniTaskVoid StartGame(int map)
     {
+        TimeLeft = _timePerRound;
         await UniTask.Delay((int)(_appearDelay * 1000));
         SignalBus.GameStarted?.Invoke();
         _currentMap = Instantiate(_maps[map], transform.position, Quaternion.identity, transform);
         _isPlaying = true;
-        TimeLeft = _timePerRound;
         Score = 0;
     }
 

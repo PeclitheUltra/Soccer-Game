@@ -24,11 +24,18 @@ public class TimerDisplay : MonoBehaviour
     {
         while (true)
         {
-            float timePassed = _gameManager.TimePerRound - _gameManager.TimeLeft;
-            float timeLeft = _gameManager.TimePerRound - timePassed;
-            _timerText.text = $"{TimeSpan.FromSeconds(timeLeft):mm\\:ss}";
-            _timerBar.sizeDelta = new Vector2(Mathf.Lerp(_minimalBarWidth, _timerBackground.sizeDelta.x, timePassed / _gameManager.TimePerRound), _timerBar.sizeDelta.y);
+            UpdateDisplay();
             yield return new WaitForSeconds(1f);
         }
+    }
+
+    private void UpdateDisplay()
+    {
+        float timePassed = _gameManager.TimePerRound - _gameManager.TimeLeft;
+        float timeLeft = _gameManager.TimePerRound - timePassed;
+        _timerText.text = $"{TimeSpan.FromSeconds(timeLeft):mm\\:ss}";
+        _timerBar.sizeDelta =
+            new Vector2(Mathf.Lerp(_minimalBarWidth, _timerBackground.sizeDelta.x, timePassed / _gameManager.TimePerRound),
+                _timerBar.sizeDelta.y);
     }
 }
